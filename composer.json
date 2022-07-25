@@ -1,26 +1,26 @@
 {
-    "name": "sunra/php-simple-html-dom-parser",
+    "name": "pruebadehack/php-simple-html-dom-parser",
     "type": "library",
-    "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",    
+    "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
     "keywords": ["html", "dom", "parser"],
-    "homepage": "https://github.com/sunra/php-simple-html-dom-parser",
+    "homepage": "https://github.com/pruebadehack/php-simple-html-dom-parser",
     "license": "MIT",
     "authors": [
-        {   
-            "name": "S.C. Chen",
+        {
+            "name": "Rygom",
             "homepage": "http://sourceforge.net/projects/simplehtmldom/"
         },
         {
-            "name": "Sunra",
-            "email": "sunra@yandex.ru",
-            "homepage": "https://github.com/sunra"
-        }   
+            "name": "Rygom",
+            "email": "info@rygomsolutions.com",
+            "homepage": "https://github.com/pruebadehack"
+        }
     ],
     "require": {
         "php": ">=5.3.2",
         "ext-mbstring": "*"
     },
     "autoload": {
-        "psr-0": { "Sunra\\PhpSimple\\HtmlDomParser": "Src/" }
-    }    
+        "psr-0": { "Rygom\\PhpSimple\\HtmlDomParser": "Src/" }
+    }
 }

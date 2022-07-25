@@ -1,7 +1,7 @@
 php-simple-html-dom-parser
 ==========================
 
-Version 1.5.2
+Version 1.9.1
 
 Adaptation for Composer and PSR-0 of:
 
@@ -20,7 +20,7 @@ Install
  composer.phar
 ```json
 "require": {
-    "sunra/php-simple-html-dom-parser": "1.5.2"
+    "pruebadehack/php-simple-html-dom-parser": "1.9.1"
     }
 ```
 
@@ -28,11 +28,11 @@ Usage
 -----
 
 ```php
-use Sunra\PhpSimple\HtmlDomParser;
+use Rygom\PhpSimple\HtmlDomParser;
 
 ...
 $dom = HtmlDomParser::str_get_html( $str );
-or 
+or
 $dom = HtmlDomParser::file_get_html( $file_name );
 
 $elems = $dom->find($elem_name);
