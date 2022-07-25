@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunra\PhpSimple;
+namespace Rygom\PhpSimple;
 
 require 'simplehtmldom_1_9_1'.DIRECTORY_SEPARATOR.'simple_html_dom.php';
 
